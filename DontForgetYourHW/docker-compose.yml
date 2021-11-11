@@ -1,0 +1,7 @@
+    version: '3'
+    services:
+     bot:
+      build: .
+      image: baka
+      environment:
+       - Database:Name=Data Source = ./database.db
